@@ -1,0 +1,90 @@
+$base-color: #eeb51c;
+$covid-color: #f80000;
+$primary-color: #232f3e;
+$heal-color: #97f1bc;
+.modal-backdrop.fade.show {
+  opacity: 0.2;
+}
+
+.card.collapse-mapAdmin {
+  margin: 3rem;
+
+  .card-header {
+    background-color: transparent;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+.hiddenStatusRes {
+  .badge {
+    padding: 0.75rem;
+    font-size: 85%;
+  }
+  .badge-danger {
+    background-color: $covid-color;
+  }
+  .badge-warning {
+    background-color: $heal-color;
+  }
+}
+.collapse-mapAdmin.card {
+  .card-header.maptable_card-header {
+    background-color: $base-color;
+    color: #ffffff;
+  }
+}
+
+nav.paginationMap {
+  position: relative;
+  left: 35%;
+}
+
+@media only screen and (max-width: 860px) {
+  .hiddenAddressRes {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .hiddenStatusRes {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .hiddenTimeRes {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .table {
+    button.btn.btn-warning {
+      padding: 6px 6px;
+    }
+    button.btn.btn-danger {
+      padding: 6px 6px;
+    }
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .card-body {
+    .col-lg-6 {
+      .table {
+        button.btn.btn-warning {
+          padding: 6px 6px;
+        }
+        button.btn.btn-danger {
+          padding: 6px 6px;
+        }
+      }
+    }
+  }
+}

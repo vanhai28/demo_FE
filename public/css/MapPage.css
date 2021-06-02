@@ -1,0 +1,23 @@
+:root {
+  --main-color: #eeb41d;
+}
+#mapid {
+  height: 90vh;
+}
+.title-popup {
+  font-size: 1.2rem;
+  color: var(--main-color);
+}
+a.nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--main-color);
+}
+a.navbar-brand {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+.popupsClick .hidden {
+  opacity: 0 !important;
+}
